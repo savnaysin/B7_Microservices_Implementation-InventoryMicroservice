@@ -10,10 +10,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>b7.savsi.implementation</groupId>
-	<artifactId>Price</artifactId>
+	<artifactId>Inventory</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Price</name>
-	<description>Price Microservice</description>
+	<description>Inventory Microservice</description>
 
 	<properties>
 		<java.version>1.8</java.version>

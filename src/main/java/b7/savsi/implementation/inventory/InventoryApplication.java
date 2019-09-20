@@ -1,14 +1,15 @@
-package b7.savsi.implementation.price;
+package b7.savsi.implementation.inventory;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+
 @EnableDiscoveryClient
 @SpringBootApplication
-public class PriceApplication {
+public class InventoryApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PriceApplication.class, args);
+		SpringApplication.run(InventoryApplication.class, args);
 	}
 
 }

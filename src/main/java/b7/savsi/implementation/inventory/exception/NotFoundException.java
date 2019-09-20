@@ -1,4 +1,4 @@
-package b7.savsi.implementation.price.exception;
+package b7.savsi.implementation.inventory.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
