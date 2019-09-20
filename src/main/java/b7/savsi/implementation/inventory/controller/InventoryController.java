@@ -65,7 +65,7 @@ public class InventoryController {
 	public ResponseEntity<Void> addInventoryInfo(@RequestBody Inventory inventory) {
 		Inventory newInventory = null;
 		if (inventory.getQuantity() != null)
-			newInventory = inventoryRepository.save(new Inventory(inventory.getProductId(), inventory.getProductId()));
+			newInventory = inventoryRepository.save(new Inventory(inventory.getProductId(), inventory.getQuantity()));
 		else
 			newInventory = inventoryRepository.save(
 					new Inventory(inventory.getProductId(), new Integer(env.getProperty("inventory.defaultQuantity"))));
